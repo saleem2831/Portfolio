@@ -61,41 +61,6 @@
                 themeBtn.textContent = 'Dark Mode';
             }
         });
-
-        // Typing effect for hero section
-        // const heroText = "Full Stack Developer";
-        // const heroP = document.querySelector('.hero p');
-        // let i = 0;
-        // function typeWriter() {
-        //     if (i < heroText.length) {
-        //         heroP.innerHTML += heroText.charAt(i);
-        //         i++;
-        //         setTimeout(typeWriter, 1000);
-        //     }
-        // }
-        // typeWriter();
-
-        // // Form submission
-        // const form = document.querySelector('.contact-form');
-        // form.addEventListener('submit', (e) => {
-        //     e.preventDefault();
-        //     const formData = new FormData(form);
-        //     alert(formData);
-        //     fetch(form.action, {
-        //         method: 'POST',
-        //         body: formData
-        //     })
-        //     .then(response => response.json())
-        //     .then(data => {
-        //         alert('Message sent successfully!');
-        //         form.reset();
-        //     })
-        //     .catch(error => {
-        //         console.error('Error:', error);
-        //         alert('An error occurred. Please try again later.');
-        //     });
-        // });
-
     
     });
  
